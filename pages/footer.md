@@ -3,8 +3,8 @@
 Want to add an app or fix a config? See the [Contributing Guide](CONTRIBUTING.md).
 
 ```bash
-git clone https://github.com/RJNY/Obtainium-Emulation-Pack.git
-cd Obtainium-Emulation-Pack
+git clone https://github.com/stopthink/Obtainium-Emulation-Pack-Plus.git
+cd Obtainium-Emulation-Pack-Plus
 
 just add-app                    # interactive CLI to add a new app
 just test --verbose --apks      # verify configs resolve to real APKs

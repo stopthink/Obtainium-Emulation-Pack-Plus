@@ -1432,10 +1432,393 @@
       ],
       "allowIdChange": false,
       "overrideSource": "GitHub"
+    },
+    {
+      "id": "org.localsend.localsend_app",
+      "url": "https://github.com/localsend/localsend",
+      "author": "localsend",
+      "name": "LocalSend",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "android-arm64v8\\.apk$",
+        "about": "Cross-platform local network file sharing (AirDrop alternative)"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "urlOverride": "https://localsend.org"
+      }
+    },
+    {
+      "id": "in.hridayan.ashell",
+      "url": "https://github.com/DP-Hridayan/aShellYou",
+      "author": "DP-Hridayan",
+      "name": "aShell You",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "github-release\\.apk$",
+        "about": "Local ADB shell and command runner (works with Shizuku, root or wireless debugging)"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub"
+    },
+    {
+      "id": "moe.shizuku.privileged.api",
+      "url": "https://github.com/RikkaApps/Shizuku",
+      "author": "RikkaApps",
+      "name": "Shizuku",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionExtractionRegEx": "v?(\\d+\\.\\d+\\.\\d+)",
+        "matchGroupToUse": "$1",
+        "about": "Lets apps use system APIs with ADB or root privileges"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "urlOverride": "https://shizuku.rikka.app"
+      }
+    },
+    {
+      "id": "com.tailscale.ipn",
+      "url": "https://github.com/tailscale/tailscale-android",
+      "author": "tailscale",
+      "name": "Tailscale",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionExtractionRegEx": "^(\\d+\\.\\d+\\.\\d+)",
+        "matchGroupToUse": "$1",
+        "about": "WireGuard-based mesh VPN client"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "urlOverride": "https://tailscale.com"
+      }
+    },
+    {
+      "id": "org.emunix.unipatcher",
+      "url": "https://github.com/btimofeev/UniPatcher",
+      "author": "btimofeev",
+      "name": "UniPatcher",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "about": "ROM patcher (IPS, UPS, BPS, APS, PPF, DPS, EBP, XDelta)"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub"
+    },
+    {
+      "id": "com.adguard.android",
+      "url": "https://github.com/AdguardTeam/AdguardForAndroid",
+      "author": "AdguardTeam",
+      "name": "AdGuard",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "adguard-[0-9.]+\\.apk$",
+        "about": "System-wide ad and tracker blocker (not on Google Play)"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "urlOverride": "https://adguard.com/adguard-android/overview.html"
+      }
+    },
+    {
+      "id": "app.revanced.manager.flutter",
+      "url": "https://github.com/ReVanced/revanced-manager",
+      "author": "ReVanced",
+      "name": "ReVanced Manager",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "\\.apk$",
+        "about": "Patch apps with ReVanced patches on-device"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "urlOverride": "https://revanced.app"
+      }
+    },
+    {
+      "id": "app.morphe.manager",
+      "url": "https://github.com/MorpheApp/morphe-manager",
+      "author": "MorpheApp",
+      "name": "Morphe Manager",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "\\.apk$",
+        "about": "Patch apps with Morphe patches on-device (ReVanced successor project)"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub"
+    },
+    {
+      "id": "app.morphe.android.youtube",
+      "url": "https://github.com/NoName-exe/revanced-extended",
+      "author": "NoName-exe",
+      "name": "YouTube (Morphe / ReVanced Extended)",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionDetection": false,
+        "apkFilterRegEx": "youtube-morphe-v.*-all\\.apk$",
+        "about": "Prebuilt patched YouTube (Morphe patches, formerly ReVanced Extended). Installs alongside stock YouTube; needs MicroG for sign-in"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "nameOverride": "YouTube (Morphe / RVX)"
+      }
+    },
+    {
+      "id": "com.loyahdev.wiiudownloader",
+      "url": "https://github.com/loyahdev/WiiUDownloaderAndroid",
+      "author": "loyahdev",
+      "name": "WiiUDownloader",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "arm64.*\\.apk$",
+        "about": "Android port of WiiUDownloader for fetching Wii U titles"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "nameOverride": "WiiUDownloader (Android)"
+      }
+    },
+    {
+      "id": "me.timschneeberger.rootlessjamesdsp",
+      "url": "https://f-droid.org/packages/me.timschneeberger.rootlessjamesdsp",
+      "author": "timschneeb",
+      "name": "RootlessJamesDSP",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "about": "System-wide audio effect processor (JamesDSP) without root"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "FDroid",
+      "meta": {
+        "urlOverride": "https://github.com/timschneeb/RootlessJamesDSP"
+      }
+    },
+    {
+      "id": "com.stormpanda.megingiard",
+      "url": "https://github.com/stormpanda/megingiard",
+      "author": "stormpanda",
+      "name": "Megingiard",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionExtractionRegEx": "v?(.+)",
+        "matchGroupToUse": "$1",
+        "about": "AYN Thor bottom-screen tool belt: screen mirroring, macro pad, virtual keyboard/touchpad, quick menu"
+      },
+      "categories": [
+        "Utilities"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "includeInStandard": false
+      }
+    },
+    {
+      "id": "dev.picori.tmc",
+      "url": "https://github.com/999sian/tmc",
+      "author": "999sian",
+      "name": "Project Picori",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "tmc-multi-android-v[0-9]+(?:\\.[0-9]+)+\\.apk$",
+        "about": "The Legend of Zelda: The Minish Cap native port (requires your own ROM)"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "includeInDualScreen": false
+      }
+    },
+    {
+      "id": "dev.picori.tmc",
+      "url": "https://github.com/samyost1/tmc-android",
+      "author": "samyost1",
+      "name": "Project Picori",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "\\.apk$",
+        "appName": "Project Picori (Dual-Screen)",
+        "about": "The Legend of Zelda: The Minish Cap native port, dual-screen build with bottom-screen map and inventory"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "includeInStandard": false,
+        "nameOverride": "Project Picori (Dual-Screen)"
+      }
+    },
+    {
+      "id": "com.dishii.soh",
+      "url": "https://github.com/Waterdish/Shipwright-Android",
+      "author": "Waterdish",
+      "name": "Ship of Harkinian",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionDetection": false,
+        "about": "The Legend of Zelda: Ocarina of Time PC port for Android (requires your own ROM)"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "urlOverride": "https://www.shipofharkinian.com"
+      }
+    },
+    {
+      "id": "com.twoshipfork.mm",
+      "url": "https://github.com/linkzenic/2ship2harkinian-Android",
+      "author": "linkzenic",
+      "name": "2 Ship 2 Harkinian",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionExtractionRegEx": "v?(.+)",
+        "matchGroupToUse": "$1",
+        "versionDetection": false,
+        "apkFilterRegEx": "\\.apk$",
+        "about": "The Legend of Zelda: Majora's Mask PC port for Android (requires your own ROM)"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub"
+    },
+    {
+      "id": "com.dishii.zelda3",
+      "url": "https://github.com/Waterdish/zelda3-android",
+      "author": "Waterdish",
+      "name": "Zelda3",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionDetection": false,
+        "about": "The Legend of Zelda: A Link to the Past reimplementation (requires your own ROM; controller needed)"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "includeInDualScreen": false
+      }
+    },
+    {
+      "id": "com.dishii.zelda3",
+      "url": "https://github.com/samyost1/zelda3-android",
+      "author": "samyost1",
+      "name": "Zelda3",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionDetection": false,
+        "appName": "Zelda3 (Dual-Screen)",
+        "about": "The Legend of Zelda: A Link to the Past reimplementation, dual-screen build"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "includeInStandard": false,
+        "nameOverride": "Zelda3 (Dual-Screen)"
+      }
+    },
+    {
+      "id": "dev.twilitrealm.dusk",
+      "url": "https://github.com/TwilitRealm/dusklight",
+      "author": "TwilitRealm",
+      "name": "Dusklight",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "apkFilterRegEx": "android-arm64\\.apk$",
+        "about": "The Legend of Zelda: Twilight Princess reimplementation (requires your own RVZ/ISO; Vulkan 1.1+)"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "includeInDualScreen": false,
+        "urlOverride": "https://twilitrealm.dev"
+      }
+    },
+    {
+      "id": "dev.twilitrealm.dusk",
+      "url": "https://github.com/igawa6/dusklight",
+      "author": "igawa6",
+      "name": "Dusklight",
+      "preferredApkIndex": 0,
+      "additionalSettings": {
+        "versionExtractionRegEx": "v?(.+)",
+        "matchGroupToUse": "$1",
+        "versionDetection": false,
+        "apkFilterRegEx": "\\.apk$",
+        "appName": "Dusklight (Dual-Screen)",
+        "about": "The Legend of Zelda: Twilight Princess reimplementation, dual-screen build (tracks an older upstream base)"
+      },
+      "categories": [
+        "Native Ports"
+      ],
+      "allowIdChange": false,
+      "overrideSource": "GitHub",
+      "meta": {
+        "includeInStandard": false,
+        "nameOverride": "Dusklight (Dual-Screen)"
+      }
     }
   ],
   "settings": {
-    "categories": "{\"Emulator\":4292386421,\"Streaming\":4292056539,\"Utilities\":4292449237,\"Track Only\":4293103815,\"Frontend\":4291470692,\"PC Emulation\":4285381755}",
+    "categories": "{\"Emulator\":4292386421,\"Streaming\":4292056539,\"Utilities\":4292449237,\"Track Only\":4293103815,\"Frontend\":4291470692,\"PC Emulation\":4285381755,\"Native Ports\":4294940672}",
     "groupBy": "category",
     "onlyCheckInstalledOrTrackOnlyApps": true,
     "buryNonInstalled": true,
